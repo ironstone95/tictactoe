@@ -1,0 +1,65 @@
+body {
+  background-color: #d8e9f0;
+}
+
+h1 {
+  text-align: center;
+  margin: auto;
+  font-family: Nunito, sans-sans-serif;
+  font-weight: 600;
+  font-size: 4rem;
+  padding: 3% 0 2% 0;
+  letter-spacing: 0.5rem;
+  color: #29252c;
+}
+
+p {
+  text-align: center;
+  font-family: Nunito, sans-sans-serif;
+  font-weight: 600;
+  font-size: 2rem;
+  letter-spacing: 0.5rem;
+  color: #33425b;
+}
+
+.container-fluid {
+  width: 464px;
+  text-align: center;
+}
+
+.box {
+  font-family: Nunito, sans-sans-serif;
+  font-weight: 900;
+  font-size: 6rem;
+  display: inline-block;
+  margin: 0.5%;
+  width: 150px;
+  height: 150px;
+  -webkit-box-shadow: inset 0px 0px 5px 1px rgba(125, 125, 125, 1);
+  -moz-box-shadow: inset 0px 0px 5px 1px rgba(125, 125, 125, 1);
+  box-shadow: inset 0px 0px 5px 1px rgba(125, 125, 125, 1);
+}
+
+.box-hover {
+  -webkit-box-shadow: inset 0px 0px 5px 2px rgba(23, 23, 23, 1);
+  -moz-box-shadow: inset 0px 0px 5px 2px rgba(23, 23, 23, 1);
+  box-shadow: inset 0px 0px 5px 2px rgba(23, 23, 23, 1);
+}
+
+.box-click {
+  -webkit-box-shadow: inset 0px 0px 5px 3.5px rgba(23, 23, 23, 1);
+  -moz-box-shadow: inset 0px 0px 5px 3.5px rgba(23, 23, 23, 1);
+  box-shadow: inset 0px 0px 5px 3.5px rgba(23, 23, 23, 1);
+}
+
+.turn-x{
+  color: #f33535;
+}
+
+.turn-o{
+  color: #33425b;
+}
+
+.won{
+  color: #207561;
+}
